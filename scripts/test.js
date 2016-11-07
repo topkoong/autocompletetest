@@ -19,3 +19,8 @@ var suggests = ["align", "goals", "successful", "resources", "capitalize", "enga
         'minChunkSize': 1,
         'delimiters': ', \n'
     });
+    $(document).ready(function () {
+      $('#area5').keyup(function(){
+        $('tr td:first-child').html($(this).val());
+      });
+    });
