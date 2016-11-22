@@ -49,7 +49,7 @@ a { color:#eee; }
 .stats { text-align:center; display:none; }
 .counter { font-size:30px; font-style:italic; font-weight:bold; }
 
-.gameoverscreen { text-align:center; background-color:#3B3F42; width:200px; height:300px; position:absolute; margin-left:250px; margin-top:100px; display:none;
+.gameoverscreen { text-align:center; background-color:#016682; width:200px; height:300px; position:absolute; margin-left:250px; margin-top:100px; display:none;
 	-moz-box-shadow: 0 0 10px #adadad; -moz-border-radius: 5px; -webkit-box-shadow: 0 0 10px #adadad; -webkit-border-radius: 5px; }
 .gameoverscreen h2 { margin:0; }
 
