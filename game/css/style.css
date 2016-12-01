@@ -16,6 +16,7 @@ body { font-family:Georgia,serif; font-size:13px; background: #016682; color: #f
 h1 { margin: 20px 0 0 0; padding:15px; border-left-width:10px; border-left-color:#eeeeee; border-left-style:solid; font-family: 'Bungee Inline', cursive;}
 h1 small{ font-family: 'Bungee Inline'; font-size: 10px; text-transform:uppercase; letter-spacing: 14px; display: block; color: #ccc; }
 h2 { font-family: 'Bungee Inline'; font-size:13px; margin:10px 0 5px 30px; }
+h3 { font-family: 'Bungee Inline'; font-size:12px; margin:10px 0 5px 30px; }
 p { margin:10px 0; font-family: 'Bungee Inline';}
 a { color:#eee; }
 
@@ -24,6 +25,7 @@ a { color:#eee; }
 
 /* WRAPPER */
 #wrapper { width:800px; margin:0 auto; }
+#hint { margin:20px; }
 
 /* JTYPINGHERO */
 #jtypinghero { margin:20px 0; }

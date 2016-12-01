@@ -56,6 +56,7 @@ google.setOnLoadCallback(function()
 function startNewGame() {
 	$("#jheroboard").fadeTo("slow", 1);
 	$("#startscreen").hide();
+	randomHintWithTime();
 
 	nrdropped = 0;
 	orbsmiss = 0;
@@ -268,4 +269,18 @@ function getRandomCharCode() {
 */
 function retrieveMargin(margin) {
 	return parseInt(margin.substring(0, margin.length - 2));
+}
+function randomHintWithTime() {
+		//$('.quote').html( randno );
+		setInterval(function() {
+			randomHint();
+		}, 5000);
+}
+
+function randomHint() {
+	$(document).ready(function() {
+		var quotes = new Array("foo", "bar", "baz", "chuck"),
+		randno = quotes[Math.floor( Math.random() * quotes.length )];
+		$("#random").text( randno );
+	});
 }
