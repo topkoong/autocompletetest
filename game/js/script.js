@@ -1,5 +1,5 @@
 /*
-* Author:      Marco Kuiper (http://www.marcofolio.net/)
+* Author:     Theerut Foongkiatcharoen
 */
 
 // Speed of the dropping orbs
@@ -40,7 +40,9 @@ var currtimer;
 var gameisplaying;
 var nrdropped;
 
-google.load("jquery", "1.3.1");
+google.load("search", "1");
+google.load("jquery", "1.4.2");
+google.load("jqueryui", "1.7.2");
 google.setOnLoadCallback(function()
 {
 	$("#jheroboard").fadeTo("slow", 0.33);
